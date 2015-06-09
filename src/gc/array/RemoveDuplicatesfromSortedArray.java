@@ -1,7 +1,5 @@
 package gc.array;
 
-import java.util.Arrays;
-
 import org.junit.Test;
 
 public class RemoveDuplicatesfromSortedArray {
@@ -28,6 +26,6 @@ public class RemoveDuplicatesfromSortedArray {
 	public void test() {
 		int[] a = new int[] { 1, 1, 1, 2, 3, 4, 4, 5 ,5,6,7,7,8,8,9,9,9,9,9,9,9,9,10,11,11};
 		System.out.println(removeDuplicates(a));
-
+        System.out.println("test");
 	}
 }
