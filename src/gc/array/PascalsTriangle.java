@@ -6,9 +6,7 @@ import java.util.List;
 import org.junit.Test;
 
 public class PascalsTriangle {
-	@SuppressWarnings("unchecked")
 	public List<List<Integer>> generate(int numRows) {
-		@SuppressWarnings("rawtypes")
 		List list = new ArrayList();
 		if (numRows <= 0) {
 			return list;
