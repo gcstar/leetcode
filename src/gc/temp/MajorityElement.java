@@ -1,7 +1,5 @@
 package gc.temp;
 
-import java.awt.font.NumericShaper;
-
 public class MajorityElement {
 
 	public static void main(String[] args) {
