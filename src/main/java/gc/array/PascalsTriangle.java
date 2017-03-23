@@ -5,6 +5,10 @@ import java.util.List;
 
 import org.junit.Test;
 
+
+/**
+ * @author gc
+ */
 public class PascalsTriangle {
 	public List<List<Integer>> generate(int numRows) {
 		List list = new ArrayList();
@@ -45,7 +49,7 @@ public class PascalsTriangle {
 	}
 
 	@Test
-	public void test() {
+	public void PascalsTriangleTest() {
 		List list = generate(10);
 		for (int i = 0; i < list.size(); i++) {
 			List<Integer> temp = (ArrayList<Integer>) list.get(i);
