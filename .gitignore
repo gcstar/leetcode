@@ -4,3 +4,6 @@
 /test
 .classpath
 .project
+target
+src/test/
+.classpath
