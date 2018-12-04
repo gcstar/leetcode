@@ -1,0 +1,4 @@
+package array
+object NextPermutation {
+
+}

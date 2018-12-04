@@ -7,6 +7,7 @@ import org.junit.Test;
 
 public class PascalsTriangle {
 	public List<List<Integer>> generate(int numRows) {
+
 		List list = new ArrayList();
 		if (numRows <= 0) {
 			return list;
