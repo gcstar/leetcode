@@ -1,1 +1,1 @@
-leetcode
+leetcode solution by scala and java
