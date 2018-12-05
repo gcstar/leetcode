@@ -13,9 +13,4 @@ object RemoveElement {
     nums.length - removed
   }
 
-  def main(args: Array[String]): Unit = {
-    val arr = Array(0, 1, 2, 2, 3, 0, 4, 2)
-    val res = removeElement(arr, 2)
-    println(res)
-  }
 }
