@@ -14,7 +14,6 @@ public class SortArrayByParityIITest {
         SortArrayByParityII test = new SortArrayByParityII();
         int[] res = test.sortArrayByParityII(new int[]{4, 2, 5, 7});
         Assert.assertArrayEquals(new int[]{4, 5, 2, 7}, res);
-
     }
 
 }
