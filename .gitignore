@@ -1,9 +1,11 @@
 /bin/
-/.settings
-/.idea
+/.settings/*
+.idea
 /test
 .classpath
 .project
 target
 src/test/
 .classpath
+*.iml
+
